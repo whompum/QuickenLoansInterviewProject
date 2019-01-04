@@ -1,8 +1,8 @@
 <resources>
     <string name="app_name">QuickenLoansProject</string>
-
     <string name="string_search">Search</string>
-
     <string name="string_default_search_title">Search Title Shows Here.</string>
-
+    <string name="string_enter_query_hint">Enter The Game Title Here</string>
+    <string name="string_no_connection">You have no internet connection!</string>
+    <string name="string_no_data">No Data.</string>
 </resources>

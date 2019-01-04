@@ -13,7 +13,7 @@ android {
     }
     buildTypes {
 
-        debug{
+        debug {
             buildConfigField 'String', "giantBombApiKey", giantBombApiKey
         }
 
@@ -22,32 +22,32 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
+    buildToolsVersion '28.0.3'
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
 }
 
 dependencies {
-    implementation fileTree(dir: 'libs', include: ['*.jar'])
-    implementation "com.android.support:appcompat-v7:${appCompatVersion}"
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    implementation "androidx.appcompat:appcompat:${appCompatVersion}"
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'com.android.support.test:runner:1.0.2'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
-
     implementation "io.reactivex.rxjava2:rxjava:${rxJavaVersion}"
-
     implementation "com.squareup.retrofit2:retrofit:${retrofitVersion}"
-
     implementation "com.google.code.gson:gson:${gsonVersion}"
     implementation "com.squareup.retrofit2:converter-gson:${retrofitGsonConverterVersion}"
-
-    implementation "com.android.support:recyclerview-v7:${appCompatVersion}"
-
+    implementation "androidx.recyclerview:recyclerview:${appCompatVersion}"
     implementation "io.reactivex.rxjava2:rxandroid:${rxAndroidVersion}"
     implementation "io.reactivex.rxjava2:rxjava:${rxJavaVersion}"
-
     implementation "com.squareup.retrofit2:adapter-rxjava2:${retrofitRxConvertorVersion}"
-
-    implementation "com.android.support.constraint:constraint-layout:${constraintLayoutVersion}"
-
+    implementation "androidx.constraintlayout:constraintlayout:${constraintLayoutVersion}"
     implementation "com.jakewharton:butterknife:${butterknifeVersion}"
     annotationProcessor "com.jakewharton:butterknife-compiler:${butterknifeVersion}"
+    implementation "com.squareup.picasso:picasso:${picassoVersion}"
+    implementation "androidx.cardview:cardview:${appCompatVersion}"
+
 
 }

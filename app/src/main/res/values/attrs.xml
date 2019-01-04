@@ -2,5 +2,6 @@
 <resources>
 
     <attr name="searchButtonTextStyle" format="reference"/>
+    <attr name="gameListItemNameTextStyle" format="reference"/>
 
 </resources>
