@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:targetApi="lollipop"
+    app:title="@string/app_name"
+    app:titleTextColor="@color/colorPrimary"
+    app:subtitle="@string/string_default_search_title"
+    android:elevation="8dp"
+    android:id="@id/id_global_toolbar"
+    android:background="@android:color/white"
+    android:minHeight="@dimen/dimen_toolbar_height_large"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"/>

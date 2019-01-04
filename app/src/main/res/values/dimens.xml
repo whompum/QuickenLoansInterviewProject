@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="dimen_search_button_radius">50dp</dimen>
+    <dimen name="dimen_toolbar_height_large">76dp</dimen>
+    <dimen name="dimen_screen_padding_default">16dp</dimen>
+</resources>

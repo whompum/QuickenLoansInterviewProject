@@ -1,0 +1,33 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <item name="searchButtonTextStyle">@style/SearchButtonTextStyle</item>
+
+        <item name="android:windowBackground">@color/windowBackground</item>
+
+        <item name="windowActionBar">@null</item>
+        <item name="windowNoTitle">true</item>
+
+    </style>
+
+    <!--
+        Search Button styling
+    -->
+    <style name="Base.Widget.AppCompat.Button.SearchButton">
+        <item name="android:background">@drawable/shadow_oval_blue</item>
+        <item name="android:id">@id/id_search_button</item>
+    </style>
+
+    <style name="SearchButtonTextStyle">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:text">@string/string_search</item>
+    </style>
+
+</resources>

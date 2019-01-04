@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">QuickenLoansProject</string>
+
+    <string name="string_search">Search</string>
+
+    <string name="string_default_search_title">Search Title Shows Here.</string>
+
+</resources>
