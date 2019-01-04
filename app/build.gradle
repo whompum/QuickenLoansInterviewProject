@@ -47,4 +47,7 @@ dependencies {
 
     implementation "com.android.support.constraint:constraint-layout:${constraintLayoutVersion}"
 
+    implementation "com.jakewharton:butterknife:${butterknifeVersion}"
+    annotationProcessor "com.jakewharton:butterknife-compiler:${butterknifeVersion}"
+
 }
